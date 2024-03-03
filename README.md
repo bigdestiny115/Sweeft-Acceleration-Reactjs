@@ -24,12 +24,12 @@ Clone the repository to your local machine using the following command:
 
 ### 2. Navigate to the Project Directory
 ```bash
-cd sweeft-acceleration-project
+cd Sweeft-Acceleration-Reactjs-main
 ```
 
 ### 3. Install Dependencies
 ```bash
-npm Install
+npm install
 ```
 
 ### 4. Start the Development Server
