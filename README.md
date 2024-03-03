@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Sweeft Acceleration Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created as part of the Sweeft Acceleration program. It is a React application built with Vite and TypeScript, integrating the Unsplash API and utilizing RTK Query for data fetching, infinite scroll, and caching.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display images from Unsplash API.
+- Search functionality to find specific images.
+- Infinite scroll for continuous browsing of images.
+- Caching of API responses for improved performance.
+- Responsive design for optimal viewing across various devices.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run the project locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+### 1. Clone the Repository
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clone the repository to your local machine using the following command:
+
+```bash
+> git clone https://github.com/bigdestiny115/Sweeft-Acceleration-Reactjs
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2. Navigate to the Project Directory
+```bash
+cd sweeft-acceleration-project
+```
+
+### 3. Install Dependencies
+```bash
+npm Install
+```
+
+### 4. Start the Development Server
+```bash
+npm run dev
+```
